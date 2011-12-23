@@ -1,10 +1,12 @@
 class Driving
-  def initialize(skill)
+  def initialize(skill = nil)
     @skill = skill
   end
   
-  def drive
-    @skill.use
+  def drive(&block)
+    return @skill.use unless @skill.nil?
+    return block.call unless block.nil?
+   'not using any skills'
   end
 end
 
