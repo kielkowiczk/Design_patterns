@@ -1,2 +1,8 @@
 Collection of design patterns impemented in ruby.
-Right now there is only template methods pattern, but going to be more :)
+
+Right now there are these design patterns:
+	-Template methods
+	-Command
+
+More info about them can be found on my blog:
+http://12elephants.blogspot.com/search/label/Design%20patterns
